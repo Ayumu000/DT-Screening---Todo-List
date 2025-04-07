@@ -19,10 +19,14 @@ body {
     border: 1px solid black;
 }
 
-form {
+form, .task {
     border: 1px solid black;
     padding-left: 12px;
     cursor: pointer;
+}
+
+form { 
+    cursor: default;
 }
 
 .task-list {
@@ -37,4 +41,13 @@ form {
 .remove { 
     background-color: red;
     color:white;
+}
+
+.checked {
+    border-left: 12px solid green;
+    padding-left: 1px;
+}
+
+.task {
+    margin-bottom: 10px;
 }
